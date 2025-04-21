@@ -1,0 +1,6 @@
+    Note right of browser: PAYLOAD {content: "WCGWCGWCG", date: "2025-04-21T21:45:32.844Z"}
+    browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+    activate server
+	server-->>browser: application/json; charset=utf-8
+    deactivate server
+	
